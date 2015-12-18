@@ -1,0 +1,312 @@
+<ui version="4.0" >
+ <class>QCheck</class>
+ <widget class="QMainWindow" name="QCheck" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>563</width>
+    <height>259</height>
+   </rect>
+  </property>
+  <property name="sizePolicy" >
+   <sizepolicy vsizetype="Minimum" hsizetype="Preferred" >
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font" >
+   <font>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle" >
+   <string>QCheck</string>
+  </property>
+  <property name="icon" stdset="0" >
+   <iconset/>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <layout class="QGridLayout" >
+    <property name="leftMargin" >
+     <number>7</number>
+    </property>
+    <property name="topMargin" >
+     <number>7</number>
+    </property>
+    <property name="rightMargin" >
+     <number>7</number>
+    </property>
+    <property name="bottomMargin" >
+     <number>7</number>
+    </property>
+    <property name="horizontalSpacing" >
+     <number>4</number>
+    </property>
+    <property name="verticalSpacing" >
+     <number>4</number>
+    </property>
+    <item row="0" column="0" >
+     <widget class="QLabel" name="label_2" >
+      <property name="text" >
+       <string>Pay To:</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" >
+     <widget class="QLineEdit" name="paytoField" />
+    </item>
+    <item row="1" column="0" >
+     <widget class="QLabel" name="label" >
+      <property name="text" >
+       <string>$</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" >
+     <widget class="QLineEdit" name="amountField" >
+      <property name="sizePolicy" >
+       <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize" >
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text" >
+       <string/>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" >
+     <widget class="QLabel" name="dollarAmntLabel" >
+      <property name="text" >
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" >
+     <widget class="QLabel" name="label_3" >
+      <property name="text" >
+       <string>Date:</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" >
+     <widget class="QLineEdit" name="dateField" >
+      <property name="maximumSize" >
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text" >
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1" >
+     <widget class="QWidget" native="1" name="widget" >
+      <layout class="QHBoxLayout" >
+       <item>
+        <spacer>
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" >
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="printButton" >
+         <property name="text" >
+          <string>&amp;Print</string>
+         </property>
+         <property name="shortcut" >
+          <string>Ctrl+P</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2" >
+         <property name="text" >
+          <string>&amp;Close</string>
+         </property>
+         <property name="shortcut" >
+          <string>Ctrl+Q</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="5" column="1" >
+     <widget class="Line" name="line" >
+      <property name="frameShadow" >
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="orientation" >
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" >
+     <widget class="QLabel" name="label_4" >
+      <property name="text" >
+       <string>Memo:</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" >
+     <widget class="QLineEdit" name="memoField" >
+      <property name="maximumSize" >
+       <size>
+        <width>200</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" >
+     <widget class="QLabel" name="label_5" >
+      <property name="text" >
+       <string>Check:</string>
+      </property>
+      <property name="alignment" >
+       <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1" >
+     <widget class="QWidget" native="1" name="widget_2" >
+      <layout class="QGridLayout" >
+       <property name="leftMargin" >
+        <number>0</number>
+       </property>
+       <property name="topMargin" >
+        <number>0</number>
+       </property>
+       <property name="rightMargin" >
+        <number>0</number>
+       </property>
+       <property name="bottomMargin" >
+        <number>0</number>
+       </property>
+       <property name="horizontalSpacing" >
+        <number>4</number>
+       </property>
+       <property name="verticalSpacing" >
+        <number>4</number>
+       </property>
+       <item row="0" column="0" >
+        <widget class="QComboBox" name="availChecks" >
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1" >
+        <widget class="QPushButton" name="addButton" >
+         <property name="minimumSize" >
+          <size>
+           <width>0</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="maximumSize" >
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text" >
+          <string>Add</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" >
+        <widget class="QPushButton" name="removeButton" >
+         <property name="maximumSize" >
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text" >
+          <string>Remove</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3" >
+        <widget class="QPushButton" name="editButton" >
+         <property name="maximumSize" >
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text" >
+          <string>Edit</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>paytoField</tabstop>
+  <tabstop>amountField</tabstop>
+  <tabstop>dateField</tabstop>
+  <tabstop>memoField</tabstop>
+  <tabstop>printButton</tabstop>
+  <tabstop>pushButton_2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>QCheck</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>504</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>25</x>
+     <y>147</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,277 @@
+<ui version="4.0" >
+ <class>CheckSetup</class>
+ <widget class="QDialog" name="CheckSetup" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>328</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Check Setup</string>
+  </property>
+  <layout class="QGridLayout" >
+   <item row="0" column="0" >
+    <widget class="QWidget" native="1" name="widget" >
+     <layout class="QVBoxLayout" >
+      <item>
+       <widget class="QWidget" native="1" name="widget_2" >
+        <layout class="QHBoxLayout" >
+         <property name="leftMargin" >
+          <number>0</number>
+         </property>
+         <property name="topMargin" >
+          <number>0</number>
+         </property>
+         <property name="rightMargin" >
+          <number>0</number>
+         </property>
+         <property name="bottomMargin" >
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label" >
+           <property name="text" >
+            <string>Check Name:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="checkNameField" />
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox" >
+        <property name="title" >
+         <string>Position Setup</string>
+        </property>
+        <layout class="QGridLayout" >
+         <item row="0" column="1" >
+          <widget class="QLabel" name="label_2" >
+           <property name="font" >
+            <font>
+             <pointsize>8</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text" >
+            <string>Top (mm)</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2" >
+          <widget class="QLabel" name="label_3" >
+           <property name="font" >
+            <font>
+             <pointsize>8</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text" >
+            <string>Left (mm)</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" >
+          <widget class="QLineEdit" name="paytoYField" >
+           <property name="text" >
+            <string>0</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2" >
+          <widget class="QLineEdit" name="paytoXField" >
+           <property name="text" >
+            <string>0</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" >
+          <widget class="QLabel" name="label_4" >
+           <property name="text" >
+            <string>Pay to:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0" >
+          <widget class="QLabel" name="label_5" >
+           <property name="text" >
+            <string>Amount ($):</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0" >
+          <widget class="QLabel" name="label_6" >
+           <property name="text" >
+            <string>Amount (Text):</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0" >
+          <widget class="QLabel" name="label_7" >
+           <property name="text" >
+            <string>Date:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0" >
+          <widget class="QLabel" name="label_8" >
+           <property name="text" >
+            <string>Memo:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1" >
+          <widget class="QLineEdit" name="amountYField" >
+           <property name="text" >
+            <string>0</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2" >
+          <widget class="QLineEdit" name="amountXField" >
+           <property name="text" >
+            <string>0</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1" >
+          <widget class="QLineEdit" name="amountTextYField" >
+           <property name="text" >
+            <string>0</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2" >
+          <widget class="QLineEdit" name="amountTextXField" >
+           <property name="text" >
+            <string>0</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1" >
+          <widget class="QLineEdit" name="dateYField" >
+           <property name="text" >
+            <string>0</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2" >
+          <widget class="QLineEdit" name="dateXField" >
+           <property name="text" >
+            <string>0</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1" >
+          <widget class="QLineEdit" name="memoYField" >
+           <property name="text" >
+            <string>0</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2" >
+          <widget class="QLineEdit" name="memoXField" >
+           <property name="text" >
+            <string>0</string>
+           </property>
+           <property name="alignment" >
+            <set>Qt::AlignAbsolute|Qt::AlignBottom|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignHorizontal_Mask|Qt::AlignJustify|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing|Qt::AlignVCenter|Qt::AlignVertical_Mask</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0" >
+    <widget class="QDialogButtonBox" name="diagOptions" >
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons" >
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>diagOptions</sender>
+   <signal>accepted()</signal>
+   <receiver>CheckSetup</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>diagOptions</sender>
+   <signal>rejected()</signal>
+   <receiver>CheckSetup</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
